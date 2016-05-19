@@ -9,6 +9,7 @@ class Category extends Model
     //
     protected $fillable = ['category_name'];
     protected $table = 'categories';
+    
 
     public $timestamps = false;
 
